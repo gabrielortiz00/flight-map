@@ -1,0 +1,109 @@
+.panel {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 300px;
+  max-width: calc(100% - 32px);
+  box-sizing: border-box;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.panel-header {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.panel-header h1 {
+  margin: 0 auto 0 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.panel-header a {
+  font: 12px var(--mono);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.show-all {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font: 12px var(--mono);
+  cursor: pointer;
+}
+
+.panel-header a:hover,
+.show-all:hover {
+  text-decoration: underline;
+}
+
+.airports {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+}
+
+.airports button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 6px 14px;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.airports button:hover,
+.airports button:focus-visible {
+  background: var(--rule);
+  outline: none;
+}
+
+.marker {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid var(--ink);
+  background: var(--ink);
+}
+
+.marker.hollow {
+  background: var(--paper);
+}
+
+.ident {
+  font: 500 13px var(--mono);
+}
+
+.place {
+  font-size: 13px;
+}
+
+.place,
+.note {
+  opacity: 0.75;
+}
+
+@media (max-width: 600px) {
+  .panel {
+    top: auto;
+    /* Clear of the map's attribution line. */
+    bottom: 48px;
+    width: auto;
+    right: 16px;
+  }
+}

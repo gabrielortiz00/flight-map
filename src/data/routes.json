@@ -1,0 +1,10 @@
+{
+  "routes": [
+    ["KHWD", "KMOD", "KHWD"],
+    ["KHWD", "KSAC", "KHWD"],
+    ["KHWD", "KMRY", "KHWD"],
+    ["KHWD", "KMRY", "KCVH"],
+    ["KHWD", "KCVH", "KHWD"]
+  ],
+  "local": ["KOWD"]
+}

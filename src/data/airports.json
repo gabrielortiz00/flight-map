@@ -1,0 +1,53 @@
+{
+  "source": "FAA NASR, effective 2026/10/01",
+  "airports": {
+    "KCVH": {
+      "name": "HOLLISTER MUNI",
+      "city": "HOLLISTER",
+      "state": "CA",
+      "lat": 36.8933475,
+      "lon": -121.41027361,
+      "elevFt": 230.6
+    },
+    "KHWD": {
+      "name": "HAYWARD EXEC",
+      "city": "HAYWARD",
+      "state": "CA",
+      "lat": 37.65893166,
+      "lon": -122.12173888,
+      "elevFt": 52.1
+    },
+    "KMOD": {
+      "name": "MODESTO CITY-COUNTY-HARRY SHAM FLD",
+      "city": "MODESTO",
+      "state": "CA",
+      "lat": 37.62582472,
+      "lon": -120.95443,
+      "elevFt": 99.2
+    },
+    "KMRY": {
+      "name": "MONTEREY RGNL",
+      "city": "MONTEREY",
+      "state": "CA",
+      "lat": 36.58695222,
+      "lon": -121.84278305,
+      "elevFt": 256.6
+    },
+    "KOWD": {
+      "name": "NORWOOD MEML",
+      "city": "NORWOOD",
+      "state": "MA",
+      "lat": 42.19052027,
+      "lon": -71.17293083,
+      "elevFt": 49.2
+    },
+    "KSAC": {
+      "name": "SACRAMENTO EXEC",
+      "city": "SACRAMENTO",
+      "state": "CA",
+      "lat": 38.51286138,
+      "lon": -121.49330111,
+      "elevFt": 23.4
+    }
+  }
+}

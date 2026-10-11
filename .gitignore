@@ -27,3 +27,6 @@ dist-ssr
 # Only the sanitized output in public/data/ is committed.
 logbook/
 *.csv
+
+# FAA NASR downloads (public data, but large; regenerate src/data/airports.json from them)
+faa/
